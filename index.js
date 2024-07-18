@@ -155,5 +155,3 @@ app.get('/hello/', async (request, response) => {
   
 })
 
-
-module.exports = app
