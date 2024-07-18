@@ -148,6 +148,9 @@ app.get(
     const result = await db.all(toGetUserFollowingUsersTweetsQuery)
     response.send(result)
   })
+app.get('/hello/', async (request, response) => {
+  console.log('hello mahendra')
+}
 
 
 module.exports = app
