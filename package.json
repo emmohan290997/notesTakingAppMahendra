@@ -14,5 +14,7 @@
 	},
 	"scrips": {
 		"start":"node index.js"
-	}
+	},
+	"license": "MIT",
+	"private": true
 }
