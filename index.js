@@ -34,6 +34,7 @@ initializeDataBaseServer()
 //TO create a user
 
 app.post('/register/', async (request, response) => {
+  console.log("success")
   const {username, password, name, gender} = request.body
   const isUserThereQuery = `SELECT * FROM user WHERE username='${username}';`
   const result = await db.get(isUserThereQuery)
