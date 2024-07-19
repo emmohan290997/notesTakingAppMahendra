@@ -152,7 +152,7 @@ app.get(
 
 app.get('/hello/', async (request, response) => {
   console.log('hello mahendra')
-  response.send(hello)
+  response.send("hello mahendra")
   
 })
 
